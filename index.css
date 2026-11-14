@@ -39,17 +39,10 @@ main {
   font-style: italic;
 }
 
-.parties li.selected {
+.parties li.selected a {
+  background-color: #dbeafe;
+  border: 2px solid red;
+  color: red;
   font-weight: bold;
   font-style: italic;
-}
-
-form {
-  display: grid;
-  gap: 1ch;
-  padding: 0 1rem;
-}
-
-label {
-  display: grid;
 }
